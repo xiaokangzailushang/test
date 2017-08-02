@@ -1,0 +1,16 @@
+
+使用anaconda
+conda list   #查看当前环境安装了哪些python包
+
+conda create -name py27 python=2.7  #创建py27环境
+activate py27  #激活py27环境
+
+deactivate  #退出环境
+
+conda create --name flowers  --clone py27   #复制一个完全相同的环境
+
+conda search beautifulsoup4   #查找bsoup版本
+conda install --name beautifulsoup4=4.4.1
+
+
+
